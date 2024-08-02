@@ -1,14 +1,16 @@
 import Footer from "./Footer/Footer";
-import Greetings from "./Greetings/Greetings";
 import Header from "./Header/Header";
-import WelcomeSection from "./WelcomeSection/WelcomeSection";
+import Message from "./Message/Message";
+
 
 const App = () => {
     return (
       <main>
         <Header />
-        <WelcomeSection />
-        <Greetings />
+        <Message author ="Petro"
+        message ="Продам холодильник"/>
+        <Message author ="Stepan"
+        message ="Ищу работу"/>
         <Footer />
       </main>
     );
